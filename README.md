@@ -31,3 +31,42 @@ Predicted Score, Grade, Confidence Range
 
 ## 👨‍💻 Author
 Student ML Project
+
+# ✈️ Tourist Travel Planner
+
+A feature-rich travel planning desktop application built using Python and Tkinter.
+
+## 🌍 Features
+- Destination Manager
+- Trip Itinerary Planner
+- Budget Tracker
+- Packing Checklist
+- Trip Summary Export
+
+## 🧠 Technologies Used
+Python, Tkinter, JSON
+
+## 📦 Installation
+No dependencies required
+
+## ▶️ Run
+python TouristTravelPlanner.py
+
+## 📊 Functionalities
+- Add destinations & costs
+- Plan daily itinerary
+- Track expenses
+- Manage packing list
+- Save & load trips
+
+## 💾 Data
+Stored using JSON
+
+## 💡 Future Enhancements
+- Map integration
+- Currency converter
+- Mobile version
+
+## 👨‍💻 Author
+Travel Planner Project
+
