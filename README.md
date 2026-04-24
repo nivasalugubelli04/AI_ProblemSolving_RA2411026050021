@@ -1,18 +1,36 @@
-<h1 align="center">🚀 Project Portfolio</h1>
-<h3 align="center">✨ Smart Python GUI Applications ✨</h3>
+<h1 align="center">🚀 AI ASSIGNMENT </h1>
+
+<h3 align="center">✨ Interactive Python Applications & Web Projects ✨</h3>
 
 <p align="center">
-  🎓 Student Score Predictor &nbsp; | &nbsp; ✈️ Travel Planner
+  <a href="https://site-clone-buddy-23.lovable.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_LIVE_PREVIEW-Project_1-blueviolet?style=for-the-badge&logo=google-chrome"/>
+  </a>
+  &nbsp;
+  <a href="https://build-a-bro.lovable.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_LIVE_PREVIEW-Project_2-orange?style=for-the-badge&logo=google-chrome"/>
+  </a>
 </p>
 
 ---
 
-# 🎓 1. Student Exam Score Predictor
+# 🎨 🧠 THE VISION
+
+> 💡 *"Understanding systems should feel like interacting with them in real-time."*
+
+This portfolio transforms **complex logic and real-world problems** into:
+- 🎯 Interactive applications  
+- 📊 Visual experiences  
+- ⚡ User-friendly systems  
+
+---
+
+# 🎓 📊 PROJECT 1: STUDENT SCORE PREDICTOR
 
 <p align="center">
   <img src="https://img.shields.io/badge/Machine%20Learning-Linear%20Regression-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/GUI-Tkinter-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Level-Advanced-purple?style=for-the-badge"/>
 </p>
 
 ---
@@ -20,143 +38,109 @@
 ## 📌 🧩 Problem Description
 
 Students' performance depends on multiple factors like:
-- Study hours 📚
-- Attendance 📊
-- Previous scores 📈
+- 📚 Study Hours  
+- 📊 Attendance  
+- 📈 Previous Scores  
 
 ❗ Problem:
-No system to **predict student performance accurately**
+No intelligent system to **predict student performance**
 
 ✅ Solution:
-A **Machine Learning-based system** that:
-- Analyzes input features
-- Predicts exam score
-- Shows accuracy & confidence
+A **Machine Learning-based Predictor** that:
+- Analyzes academic inputs  
+- Predicts exam score  
+- Shows confidence & accuracy  
 
 ---
 
 ## 🧠 ⚙️ Algorithms Used
 
 ### 🔹 Linear Regression
-- Predicts continuous values (marks)
-- Finds relationship between:
-  - Inputs → Hours, Attendance, etc.
-  - Output → Exam Score
+- Predicts continuous output (marks)
+- Learns relationship between inputs & score
 
 ### 🔹 Data Preprocessing
-- Missing value handling
+- Missing value handling  
 - Feature scaling (StandardScaler)
 
 ### 🔹 Evaluation Metrics
-- 📊 R² Score
-- 📉 MAE
-- 📉 RMSE
+- 📊 R² Score  
+- 📉 MAE  
+- 📉 RMSE  
 
 ---
 
 ## ⚙️ ▶️ Execution Steps
 
-```bash
-# Step 1: Install dependencies
-pip install scikit-learn pandas numpy
 
-# Step 2: Run the program
+pip install scikit-learn pandas numpy
 python StudentScorePredictor.py
-💡 Steps in UI:
-Load dataset (CSV / Synthetic / Manual)
+💡 Workflow
+Load dataset
 Train model
-Enter student details
-Click Predict
+Enter inputs
+Predict score
 📊 ✨ Sample Output
-📥 Input
-Hours Studied: 6
-Attendance: 85
-Previous Score: 78
-Assignments: 8
-📤 Output
+Input:
+Hours = 6
+Attendance = 85
+Previous Score = 78
+
+Output:
 🎯 Predicted Score: 82.45
 📊 Grade: Good
 📉 Confidence: ±4.2
-🌟 Features
-
-✔ Interactive GUI
-✔ Real-time prediction
-✔ Graph visualization
-✔ Multiple dataset options
-✔ Confidence range display
-
-✈️ 2. Tourist Travel Planner
-<p align="center"> <img src="https://img.shields.io/badge/App-Travel%20Planner-purple?style=for-the-badge"/> <img src="https://img.shields.io/badge/GUI-Tkinter-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/Data-JSON-orange?style=for-the-badge"/> </p>
+✈️ 🌍 PROJECT 2: TOURIST TRAVEL PLANNER
+<p align="center"> <img src="https://img.shields.io/badge/App-Travel%20Planner-purple?style=for-the-badge"/> <img src="https://img.shields.io/badge/Data-JSON-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/GUI-Tkinter-green?style=for-the-badge"/> </p>
 📌 🧩 Problem Description
 
 Planning trips manually is:
 
-❌ Time-consuming
 ❌ Unorganized
-❌ Hard to track expenses
+❌ Time-consuming
+❌ Hard to manage
 
 ✅ Solution:
-A complete travel planner system that:
+A Complete Travel Planner System that:
 
 Organizes trips
-Tracks budget
+Tracks expenses
 Manages itinerary
 🧠 ⚙️ Algorithms / Logic Used
 🔹 Data Structures
-Lists & Dictionaries for storing:
-Destinations
-Expenses
-Packing list
-🔹 Budget Calculation
+Lists & Dictionaries
+🔹 Budget Logic
 Remaining = Total Budget - Expenses
-🔹 Sorting Algorithm
+🔹 Sorting
 Activities sorted by time
 🔹 Filtering
 Search-based destination filtering
 ⚙️ ▶️ Execution Steps
-# Run the application
 python TouristTravelPlanner.py
-💡 Steps:
+💡 Workflow
 Add destinations
 Plan itinerary
-Track expenses
-Manage packing list
-Save / Export data
+Track budget
+Manage packing
 📊 ✨ Sample Output
-💰 Budget Summary
-Total Budget: $2000
+💰 Budget:
+Total: $2000
 Spent: $850
 Remaining: $1150
-📅 Itinerary
+
+📅 Itinerary:
 Day 1:
 09:00 - Visit Museum
 13:00 - Lunch
-18:00 - City Tour
-🧳 Packing Progress
-Packed: 8 / 12 items (66%)
-🌟 Features
+🌐 🔗 LIVE PROJECTS
+🚀 Try Them Here 👇
+🔹 Project 1
 
-✔ Destination management
-✔ Timeline itinerary
-✔ Expense tracking
-✔ Packing checklist
-✔ Save & load data
+👉 Click Below to Open
 
-🎨 💡 Why This Project is Awesome
+<p align="center"> <a href="https://site-clone-buddy-23.lovable.app" target="_blank"> <img src="https://img.shields.io/badge/OPEN_PROJECT-Click_Here-success?style=for-the-badge"/> </a> </p>
+🔹 Project 2
 
-✨ Real-world applications
-✨ Combines ML + GUI
-✨ Beginner-friendly
-✨ Highly interactive
+👉 Click Below to Open
 
-🚀 Future Enhancements
-📱 Mobile App Version
-☁️ Cloud Integration
-🤖 AI Recommendations
-🌍 Map Integration
-👨‍💻 Author
-
-💻 Developed with ❤️ using Python
-🎓 DBMS + ML Mini Projects
-
-<p align="center"> ⭐ If you like this project, give it a star ⭐ </p> ```
+<p align="center"> <a href="https://build-a-bro.lovable.app/" target="_blank"> <img src="https://img.shields.io/badge/OPEN_PROJECT-Click_Here-blue?style=for-the-badge"/> </a> </p>
